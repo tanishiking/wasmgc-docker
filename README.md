@@ -1,6 +1,6 @@
 ## usage
 
-See: https://github.com/WebAssembly/gc/interpreter
+See: https://github.com/WebAssembly/spec/tree/wasm-3.0%2Bexn/interpreter
 
 ```sh
 $ docker build . -t wasmgc
