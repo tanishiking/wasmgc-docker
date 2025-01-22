@@ -1,6 +1,6 @@
-FROM ocaml/opam:debian-ocaml-4.12
+FROM ocaml/opam:debian-ocaml-4.14
 
-RUN git clone https://github.com/WebAssembly/spec.git -b 'wasm-3.0+exn'
+RUN git clone https://github.com/WebAssembly/spec.git -b 'wasm-3.0'
 
 RUN opam install dune menhir
 
